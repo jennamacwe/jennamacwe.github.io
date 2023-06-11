@@ -46,7 +46,7 @@ with description:
 
 with dataset:
     st.write("""# Dataset """)
-    df = pd.read_csv('https://raw.githubusercontent.com/jennamacwe/COBA/main/Dataset%20-%20Kidney%20Stone%20Prediction.csv')
+    df = pd.read_csv('https://raw.githubusercontent.com/jennamacwe/jennamacwe.github.io/main/Dataset%20-%20Kidney%20Stone%20Prediction.csv')
     st.dataframe(df)
 
 with preprocessing:
